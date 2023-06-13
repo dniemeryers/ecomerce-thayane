@@ -3,7 +3,7 @@ import { ProdutoService } from '../services/produto.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Produto } from '../models/produto.model';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { createSenhaForte } from '../Validacoes/criarSenhaForte';
+
 
 @Component({
   selector: 'app-cadastro',

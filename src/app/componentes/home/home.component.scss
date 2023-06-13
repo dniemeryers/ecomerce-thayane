@@ -1,9 +1,13 @@
 .example-card {
+    
     max-width: 200px;
     margin:20px;
   }
-  
+  .container{
+    background-color: #ffe3dc;
+  }
   .flex{
+   
     display:flex;
     flex-direction: row;
     justify-content: space-around;

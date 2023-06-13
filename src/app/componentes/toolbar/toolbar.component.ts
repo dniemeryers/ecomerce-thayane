@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./toolbar.component.scss']
 })
 export class ToolbarComponent {
-  title='Thayane Prata do Rei'
+  title='Thayane Pratas do Rei'
 
 }
