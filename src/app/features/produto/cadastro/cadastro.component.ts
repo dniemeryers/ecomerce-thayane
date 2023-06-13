@@ -17,7 +17,6 @@ export class CadastroComponent implements OnInit{
   rota: string='';
   tituloPagina: string='';
   isNovoProduto: boolean=false;
-
   formCadastroProduto!: FormGroup;
 
   
@@ -61,8 +60,6 @@ criarFormulario(){
   this.formCadastroProduto = this.formBuilder.group({
     nome: ['', Validators.required],
     descricao: ['', Validators.required],
-    email: ['', [Validators.required, ,Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")]],
-    password:['', [Validators.required, Validators.minLength(8), createSenhaForte()]],
     preco:['', Validators.required],
     estoque:[0, Validators.required]
   });
