@@ -31,13 +31,6 @@
       "imagemUrl": "https://m.media-amazon.com/images/I/61tegGxILZL._AC_SX679_.jpg",
       "preco": "5000",
       "estoque": 2
-    },
-    {
-      "id": 5,
-      "nome": "cordao",
-      "descricao": "colar",
-      "estoque": 3,
-      "preco": "120"
     }
   ],
   "clientes": [
